@@ -13,11 +13,11 @@
         android:theme="@style/Theme.AC2MobileFinanças"
         tools:targetApi="31">
 
-        <activity android:name=".CadastroGastoActivity" />
-        <activity android:name=".ResumoActivity" />
+        <activity android:name="com.example.ac2financas.CadastroGastoActivity" />
+        <activity android:name="com.example.ac2financas.ResumoActivity" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ac2financas.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
