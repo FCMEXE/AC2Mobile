@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
 
-        btnNovoGasto.setOnClickListener(v -> startActivity(new Intent(this, CadastroGastoActivity.class)));
+        btnNovoGasto.setOnClickListener(v -> startActivity(new Intent(this, AdicionarGastoActivity.class)));
         btnResumo.setOnClickListener(v -> startActivity(new Intent(this, ResumoActivity.class)));
     }
 

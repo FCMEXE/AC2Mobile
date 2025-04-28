@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AC2MobileFinanças"
         tools:targetApi="31">
 
-        <activity android:name="com.example.ac2financas.CadastroGastoActivity" />
+        <activity android:name="com.example.ac2financas.AdicionarGastoActivity" />
         <activity android:name="com.example.ac2financas.ResumoActivity" />
 
         <activity

@@ -5,16 +5,21 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="45dp" />
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="178dp"
+        android:layout_height="152dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logo" />
 
     <Button
         android:id="@+id/btnNovoGasto"
         style="@style/CustomButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Adicionar Gasto" />
+        android:backgroundTint="#DC1F7E"
+        android:text="Adicionar um novo gasto" />
 
     <Button
         android:id="@+id/btnResumo"
@@ -22,11 +27,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Resumo por Categoria" />
+        android:backgroundTint="#DC1F7E"
+        android:text="Lista por Categoria" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerGastos"
         android:layout_width="match_parent"
-        android:layout_height="457dp"
+        android:layout_height="0dp"
         android:layout_weight="1" />
 </LinearLayout>

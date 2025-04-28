@@ -13,7 +13,7 @@ import com.example.ac2_mobile_finanas.R;
 
 import java.util.Calendar;
 
-public class CadastroGastoActivity extends AppCompatActivity {
+public class AdicionarGastoActivity extends AppCompatActivity {
     private EditText editDescricao, editValor, editData;
     private Spinner spinnerCategoria;
 
@@ -35,7 +35,7 @@ public class CadastroGastoActivity extends AppCompatActivity {
 
         editData.setOnClickListener(v -> {
             Calendar calendar = Calendar.getInstance();
-            new DatePickerDialog(CadastroGastoActivity.this, (view, year, month, dayOfMonth) ->
+            new DatePickerDialog(AdicionarGastoActivity.this, (view, year, month, dayOfMonth) ->
                     editData.setText(String.format("%02d/%02d/%04d", dayOfMonth, month + 1, year)),
                     calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH)).show();
         });

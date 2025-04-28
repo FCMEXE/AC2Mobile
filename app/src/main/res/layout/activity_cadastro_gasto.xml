@@ -17,13 +17,14 @@
             android:id="@+id/editDescricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Descrição" />
+            android:hint="Destrição do item"
+            android:focusable="true"/>
 
         <EditText
             android:id="@+id/editValor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Valor (R$)"
+            android:hint="Valor"
             android:inputType="numberDecimal" />
 
         <Spinner
@@ -35,13 +36,14 @@
             android:id="@+id/editData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Data"
+            android:hint="Adicione uma data aqui"
             android:focusable="false" />
 
         <Button
             android:id="@+id/btnSalvar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salvar" />
+            android:backgroundTint="#DC1F7E"
+            android:text="Adicionar Gasto" />
     </LinearLayout>
 </ScrollView>
